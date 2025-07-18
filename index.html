@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- Укажите язык страницы -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание вашей страницы для SEO">
+    <title>Заголовок страницы</title>
+    
+    <!-- Favicon (можно сгенерировать на https://realfavicongenerator.net/) -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <!-- Основные CSS стили -->
+    <style>
+        /* Сброс стандартных отступов */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="logo">Логотип</a>
+                <ul class="nav-menu">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1>Основной заголовок страницы</h1>
+                <p>Вводный текст или описание</p>
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="container">
+                <article class="feature-card">
+                    <h2>Фича 1</h2>
+                    <p>Описание первой особенности</p>
+                </article>
+                <article class="feature-card">
+                    <h2>Фича 2</h2>
+                    <p>Описание второй особенности</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Ваша компания. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script>
+        // Основной JavaScript код
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Страница загружена!');
+        });
+    </script>
+</body>
+</html>
